@@ -20,6 +20,12 @@ namespace PacaManager
         public string NamSinh { get; set; }
         public Int64 Luong { get; set; }
         public Int64 LinhVuc { get; set; }
+        /// <summary>
+        /// 0 = Boss
+        /// 1= khách
+        /// 2= nv
+        /// 3 = other
+        /// </summary>
         public string NganHang { get; set; }
         public string SoTaiKhoan { get; set; }
         public string GhiChu { get; set; }
@@ -33,6 +39,11 @@ namespace PacaManager
         public string MaVT { get; set; }
         public string TenVT { get; set; }
         public Int64 SoLuong { get; set; }
+        /// <summary>
+        /// LOAI 1 = hang hoa
+        /// loai 0 = vat tu
+        /// </summary>
+        public Int64 Loai { get; set; }
         public string GhiChu { get; set; }
 
     }

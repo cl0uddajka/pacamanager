@@ -39,4 +39,4 @@ C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.FormP
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.FormXuatNhap.resources
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.csproj.CopyComplete
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.FormThemNhanVien.resources
-C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.Singleton.resources
+C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.FormMain.resources

@@ -3,9 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using MongoDB.Driver;
 namespace PacaManager
 {
+    public sealed class Singleton
+    {
+        private Singleton() { }
+
+        static readonly Singleton _instance = new Singleton();
+
+        public static Singleton Instance => _instance;
+
+        public MongoClient client;
+
+        public string PACAConnectionString = "mongodb+srv://cl0uddajka:1596842424z@cluster0.yjlz2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+
+        public IMongoDatabase db;
+
+
+        private int _count = 0;
+
+        public void Increase() => _count++;
+
+        public int Count => _count;
+    }
     public class Common
     {
         public string checkMaID(int ma)

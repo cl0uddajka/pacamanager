@@ -82,6 +82,9 @@ namespace PacaManager
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.chứcNăngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thêmNhânViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grbHangHoa.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grvHangHoa)).BeginInit();
             this.grbQuyTaiChinh.SuspendLayout();
@@ -94,6 +97,7 @@ namespace PacaManager
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // grbHangHoa
@@ -167,6 +171,7 @@ namespace PacaManager
             this.btnXuatHang.TabIndex = 1;
             this.btnXuatHang.Text = "Xuất hàng";
             this.btnXuatHang.UseVisualStyleBackColor = true;
+            this.btnXuatHang.Click += new System.EventHandler(this.btnNhapXuat_Click);
             // 
             // btnNhapHang
             // 
@@ -176,6 +181,7 @@ namespace PacaManager
             this.btnNhapHang.TabIndex = 0;
             this.btnNhapHang.Text = "Nhập hàng";
             this.btnNhapHang.UseVisualStyleBackColor = true;
+            this.btnNhapHang.Click += new System.EventHandler(this.btnNhapXuat_Click);
             // 
             // grbQuyTaiChinh
             // 
@@ -445,6 +451,7 @@ namespace PacaManager
             this.btnXuatVT.TabIndex = 3;
             this.btnXuatVT.Text = "Xuất vật tư";
             this.btnXuatVT.UseVisualStyleBackColor = true;
+            this.btnXuatVT.Click += new System.EventHandler(this.btnNhapXuat_Click);
             // 
             // btnNhapVT
             // 
@@ -454,6 +461,7 @@ namespace PacaManager
             this.btnNhapVT.TabIndex = 2;
             this.btnNhapVT.Text = "Nhập vật tư";
             this.btnNhapVT.UseVisualStyleBackColor = true;
+            this.btnNhapVT.Click += new System.EventHandler(this.btnNhapXuat_Click);
             // 
             // btnThanhToan
             // 
@@ -537,6 +545,31 @@ namespace PacaManager
             this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
             this.dataGridViewTextBoxColumn18.Width = 80;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.chứcNăngToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1350, 27);
+            this.menuStrip1.TabIndex = 8;
+            this.menuStrip1.Text = "menuMain";
+            // 
+            // chứcNăngToolStripMenuItem
+            // 
+            this.chứcNăngToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thêmNhânViênToolStripMenuItem});
+            this.chứcNăngToolStripMenuItem.Name = "chứcNăngToolStripMenuItem";
+            this.chứcNăngToolStripMenuItem.Size = new System.Drawing.Size(87, 23);
+            this.chứcNăngToolStripMenuItem.Text = "Chức năng";
+            // 
+            // thêmNhânViênToolStripMenuItem
+            // 
+            this.thêmNhânViênToolStripMenuItem.Name = "thêmNhânViênToolStripMenuItem";
+            this.thêmNhânViênToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.thêmNhânViênToolStripMenuItem.Text = "Thêm nhân viên";
+            this.thêmNhânViênToolStripMenuItem.Click += new System.EventHandler(this.MainMenuItem_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -549,6 +582,8 @@ namespace PacaManager
             this.Controls.Add(this.grbVatTu);
             this.Controls.Add(this.grbQuyTaiChinh);
             this.Controls.Add(this.grbHangHoa);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormMain";
             this.Text = "Màn hình chính";
             this.Load += new System.EventHandler(this.FormMain_Load);
@@ -565,7 +600,10 @@ namespace PacaManager
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -624,6 +662,9 @@ namespace PacaManager
         private System.Windows.Forms.DataGridView dataGridView4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn18;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem chứcNăngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thêmNhânViênToolStripMenuItem;
     }
 }
 

@@ -144,7 +144,7 @@ namespace PacaManager
             this.txtGia.Location = new System.Drawing.Point(378, 77);
             this.txtGia.Name = "txtGia";
             this.txtGia.Size = new System.Drawing.Size(100, 20);
-            this.txtGia.TabIndex = 15;
+            this.txtGia.TabIndex = 11;
             // 
             // txtThanhTien
             // 
@@ -159,7 +159,7 @@ namespace PacaManager
             this.button1.Location = new System.Drawing.Point(55, 133);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(62, 23);
-            this.button1.TabIndex = 18;
+            this.button1.TabIndex = 16;
             this.button1.Text = "Phát sinh:";
             this.button1.UseVisualStyleBackColor = true;
             // 

@@ -2,7 +2,6 @@ C:\Users\hisoka\source\repos\PacaManager\PacaManager\bin\Debug\PacaManager.exe.c
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\bin\Debug\PacaManager.exe
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\bin\Debug\PacaManager.pdb
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.csprojAssemblyReference.cache
-C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.FormMain.resources
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.Properties.Resources.resources
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.csproj.GenerateResource.cache
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.csproj.CoreCompileInputs.cache
@@ -39,3 +38,5 @@ C:\Users\hisoka\source\repos\PacaManager\PacaManager\bin\Debug\System.Text.Encod
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.FormPhatSinh.resources
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.FormXuatNhap.resources
 C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.csproj.CopyComplete
+C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.FormThemNhanVien.resources
+C:\Users\hisoka\source\repos\PacaManager\PacaManager\obj\Debug\PacaManager.Singleton.resources

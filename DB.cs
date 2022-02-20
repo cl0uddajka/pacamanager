@@ -17,6 +17,8 @@ namespace PacaManager
         public string TenNV { get; set; }
         public string SoDienThoai { get; set; }
         public string DiaChi { get; set; }
+        public string NamSinh { get; set; }
+        public Int64 Luong { get; set; }
         public Int64 LinhVuc { get; set; }
         public string NganHang { get; set; }
         public string SoTaiKhoan { get; set; }
